@@ -1,9 +1,13 @@
 #!/usr/bin/python3
-"""0-minoperations.py"""
+"""module for 0-minoperations.py"""
 
 
 def minOperations(n):
-    """minOperations"""
+     """
+    minOperations
+    Gets fewest # of operations needed to result in exactly n H characters
+    """
+    # all outputs should be at least 2 char: (min, Copy All => Paste)
     if n <= 1:
         return 0
 
